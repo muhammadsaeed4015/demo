@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+:root {
+	--main-bg-width:50%;}
+
+.my-border {
+	border:1px blue solid;
+	box-sizing:border-box;}
+	
+	
+	
+.header {
+	width:var(--main-bg-width) !important;
+	margin:auto;
+	padding:10px 0px;
+	box-sizing:border-box;
+	height:auto;}
+
+
+.header-links {
+	color:black;
+	font-size:18px;
+	padding:10px;}
+
+.header-links:hover {
+	color:red;
+	font-size:18px;
+	padding:10px;
+	text-decoration:none;
+	border-bottom: 1px solid red;}
+
+.header-links-slash {
+	font-size:16px;}
+	
+	#googlemaps { 
+  height: 100%; 
+  width: 100%; 
+  position:absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color:#555 ;
+}
+
